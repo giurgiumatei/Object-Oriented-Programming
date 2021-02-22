@@ -1,0 +1,10 @@
+﻿  rcc TaskManager.qrc
+   RCC: Warning: No resources in 'C:\Users\giurg\OneDrive\Facultate Anul 1\OOP\TaskManager\TaskManager\TaskManager.qrc'.
+  Controller.cpp
+  Domain.cpp
+  Repository.cpp
+  TaskManager.cpp
+  main.cpp
+  moc_TaskManager.cpp
+  qrc_TaskManager.cpp
+  TaskManager.vcxproj -> C:\Users\giurg\OneDrive\Facultate Anul 1\OOP\TaskManager\x64\Debug\TaskManager.exe
