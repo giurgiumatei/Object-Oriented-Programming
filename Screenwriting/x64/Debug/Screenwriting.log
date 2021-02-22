@@ -1,0 +1,13 @@
+﻿  rcc Screenwriting.qrc
+   RCC: Warning: No resources in 'C:\Users\giurg\OneDrive\Facultate Anul 1\OOP\Screenwriting\Screenwriting\Screenwriting.qrc'.
+  EditWidget.cpp
+  Model.cpp
+  Service.cpp
+  Subject.cpp
+  Idea.cpp
+  Screenwriter.cpp
+  Screenwriting.cpp
+  main.cpp
+C:\Users\giurg\OneDrive\Facultate Anul 1\OOP\Screenwriting\Screenwriting\main.cpp(19,87): error C2664: 'Screenwriting::Screenwriting(const Screenwriting &)': cannot convert argument 3 from 'Screenwriter' to 'std::string'
+C:\Users\giurg\OneDrive\Facultate Anul 1\OOP\Screenwriting\Screenwriting\main.cpp(19,74): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\giurg\OneDrive\Facultate Anul 1\OOP\Screenwriting\Screenwriting\Screenwriting.h(13,5): message : see declaration of 'Screenwriting::Screenwriting' (compiling source file main.cpp)

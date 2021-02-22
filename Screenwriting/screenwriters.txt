@@ -1,0 +1,5 @@
+shony|junior
+filip|senior
+lavi|assistant
+gubi|junior
+ghetina|senior
