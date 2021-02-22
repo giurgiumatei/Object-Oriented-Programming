@@ -1,0 +1,6 @@
+shony|programmer
+lavi|programmer
+filip|programmer
+ghetina|tester
+muri|tester
+sergiu|tester

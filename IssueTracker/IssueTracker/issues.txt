@@ -1,0 +1,5 @@
+eroare citire|open|ghetina|No Resolver
+eroare afisare|closed|shony|filip
+eroare critica|open|sergiu|No Resolver
+warning memorie|closed|muri|sergiu
+crash memorie|open|sergiu|No Resolver
