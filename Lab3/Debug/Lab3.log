@@ -1,0 +1,8 @@
+﻿  Controller.c
+C:\Users\giurg\OneDrive\Facultate\OOP\Lab3\Lab3\Lab3\Controller.c(7,46): warning C4013: 'malloc' undefined; assuming extern returning int
+  Domain.c
+  Repository.c
+C:\Users\giurg\OneDrive\Facultate\OOP\Lab3\Lab3\Lab3\Repository.c(156,31): warning C4047: 'return': 'Material *' differs in levels of indirection from 'Material (*)[128]'
+  UI.c
+  Generating Code...
+C:\Users\giurg\OneDrive\Facultate\OOP\Lab3\Lab3\Lab3\UI.c : fatal error C1085: Cannot write compiler generated file: 'C:\Users\giurg\OneDrive\Facultate\OOP\Lab3\Lab3\Lab3\Debug\UI.obj': Invalid argument
