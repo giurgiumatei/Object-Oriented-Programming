@@ -1,0 +1,4 @@
+cea mai tare aplicatie|progress|1
+cea mai slaba aplicatie|open|-1
+aplicatie faina|closed|2
+aplicatie faina|closed|3
