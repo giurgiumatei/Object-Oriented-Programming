@@ -1,0 +1,9 @@
+﻿  moc Cars.h
+  Cars.cpp
+  Controller.cpp
+  Domain.cpp
+  Repository.cpp
+  Tests.cpp
+  main.cpp
+  moc_Cars.cpp
+  Cars.vcxproj -> C:\Users\giurg\OneDrive\Facultate\OOP\Cars\x64\Debug\Cars.exe

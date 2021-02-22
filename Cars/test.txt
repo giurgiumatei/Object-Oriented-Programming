@@ -1,0 +1,5 @@
+Mercedez-Benz | SUV | 2013 | blue
+Fiat | Bravo | 2007 | red
+Dacia | Logan | 2002 | green
+Audi | A9 | 2016 | black
+Mercedez-Benz | S-Class | 2015 | yellow
