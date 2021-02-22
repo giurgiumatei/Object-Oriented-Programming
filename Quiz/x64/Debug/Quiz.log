@@ -1,0 +1,5 @@
+﻿  uic Quiz.ui
+  Quiz.cpp
+  main.cpp
+  moc_Quiz.cpp
+  Quiz.vcxproj -> C:\Users\giurg\OneDrive\Facultate\OOP\Quiz\x64\Debug\Quiz.exe
