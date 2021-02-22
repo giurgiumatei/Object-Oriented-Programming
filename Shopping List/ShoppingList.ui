@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ShoppingListClass</class>
+ <widget class="QMainWindow" name="ShoppingListClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1099</width>
+    <height>1016</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ShoppingList</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="0" colspan="2">
+       <widget class="QListWidget" name="item_list_widget"/>
+      </item>
+      <item row="1" column="0">
+       <layout class="QFormLayout" name="formLayout_2">
+        <item row="0" column="0" colspan="2">
+         <widget class="QLineEdit" name="filter_line_edit"/>
+        </item>
+        <item row="1" column="0" colspan="2">
+         <widget class="QPushButton" name="filter_button">
+          <property name="text">
+           <string>filter</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="2" column="1">
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="3" column="1">
+         <layout class="QHBoxLayout" name="horizontalLayout"/>
+        </item>
+        <item row="3" column="0">
+         <widget class="QPushButton" name="add_button">
+          <property name="text">
+           <string>add</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="text">
+               <string>category</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="category_line_edit"/>
+            </item>
+           </layout>
+          </item>
+          <item row="1" column="0">
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QLabel" name="label_2">
+              <property name="text">
+               <string>name</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="name_line_edit"/>
+            </item>
+           </layout>
+          </item>
+          <item row="2" column="0">
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QLabel" name="label_3">
+              <property name="text">
+               <string>quantity</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="quantity_line_edit"/>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item row="2" column="0">
+         <widget class="QPushButton" name="delete_button">
+          <property name="text">
+           <string>delete</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1099</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="ShoppingList.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>filter_button</sender>
+   <signal>clicked()</signal>
+   <receiver>ShoppingListClass</receiver>
+   <slot>filter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>295</x>
+     <y>788</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>437</x>
+     <y>875</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>add_button</sender>
+   <signal>clicked()</signal>
+   <receiver>ShoppingListClass</receiver>
+   <slot>add()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>744</x>
+     <y>962</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>475</x>
+     <y>978</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>item_list_widget</sender>
+   <signal>itemSelectionChanged()</signal>
+   <receiver>ShoppingListClass</receiver>
+   <slot>select_item()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>630</x>
+     <y>422</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>701</x>
+     <y>771</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>delete_button</sender>
+   <signal>clicked()</signal>
+   <receiver>ShoppingListClass</receiver>
+   <slot>remove()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>640</x>
+     <y>937</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>456</x>
+     <y>910</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>filter()</slot>
+  <slot>delete()</slot>
+  <slot>add()</slot>
+  <slot>select_item()</slot>
+  <slot>remove()</slot>
+ </slots>
+</ui>
