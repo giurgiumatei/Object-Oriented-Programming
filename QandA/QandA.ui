@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QandAClass</class>
+ <widget class="QMainWindow" name="QandAClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1213</width>
+    <height>870</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QandA</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>80</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Questions</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="questions_list_widget">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>150</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ask_question_line_edit">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>380</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ask_question_button">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>380</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ask</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="answers_list_widget">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>170</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>90</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Answers</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="respond_line_edit">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>390</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="respond_question_button">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>390</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Answer</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1213</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="QandA.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>ask_question_button</sender>
+   <signal>clicked()</signal>
+   <receiver>QandAClass</receiver>
+   <slot>ask()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>480</x>
+     <y>427</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>561</x>
+     <y>531</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>questions_list_widget</sender>
+   <signal>itemSelectionChanged()</signal>
+   <receiver>QandAClass</receiver>
+   <slot>question_selected()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>269</x>
+     <y>270</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>479</x>
+     <y>262</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>respond_question_button</sender>
+   <signal>clicked()</signal>
+   <receiver>QandAClass</receiver>
+   <slot>answer()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1015</x>
+     <y>441</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1050</x>
+     <y>557</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>ask()</slot>
+  <slot>question_selected()</slot>
+  <slot>respond()</slot>
+  <slot>answer()</slot>
+ </slots>
+</ui>

@@ -1,0 +1,4 @@
+0|0|lavi|pui aluat oua si apa|3
+1|2|ghetina|git gud|6
+2|1|lavi|faci toate modelele|4
+3|1|lavi|faci toate|4
