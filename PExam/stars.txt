@@ -1,0 +1,4 @@
+Star1|Constellation1|1|1|1
+Star2|Constellation2|2|2|2
+Star3|Constellation3|3|3|3
+Star4|Constellation4|4|4|4
