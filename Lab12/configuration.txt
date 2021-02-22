@@ -1,0 +1,3 @@
+False
+C:\\Users\\giurg\\OneDrive\\Facultate\\OOP\\Lab12\\test.txt
+C:\\Users\\giurg\\OneDrive\\Facultate\\OOP\\Lab12\\test.csv
