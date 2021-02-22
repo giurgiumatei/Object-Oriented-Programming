@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ExamClass</class>
+ <widget class="QMainWindow" name="ExamClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1403</width>
+    <height>1018</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Exam</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QListWidget" name="entity_list_widget">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>110</y>
+      <width>661</width>
+      <height>531</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1403</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Exam.qrc"/>
+ </resources>
+ <connections/>
+</ui>

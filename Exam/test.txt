@@ -1,0 +1,5 @@
+Fiat | Bravo | 2007 | 1
+Fiat | Idea | 2003 | 1
+Audi | A5 | 2007 | 1
+Mercedez | SUV | 2013 | 1
+Ford | Fiesta | 2015 | 1
